@@ -22,12 +22,12 @@ public:
                 j++;
              }   
         }
-        if(i<l1){
+        if(i!=l1){
             for(int k=i;k<l1;k++){
                 result.push_back(nums1[k]);
             }
         }
-        if(j<l2){
+        if(j!=l2){
             for(int k=j;k<l2;k++){
                 result.push_back(nums2[k]);
             }
