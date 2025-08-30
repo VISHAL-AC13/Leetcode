@@ -32,7 +32,7 @@ public:
                 result.push_back(nums2[k]);
             }
         }
-        int n=l1+l2;
+        int n=result.size();
         if(n%2!=0){
             int index=(result.size())/2;
             return result[index];
