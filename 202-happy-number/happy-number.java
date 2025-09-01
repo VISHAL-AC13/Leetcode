@@ -17,7 +17,7 @@ class Solution {
             fast=sumofdigits(fast);
 
         }while(slow!=fast);
-        if(slow==1){
+        if(fast==1){
             return true;
         }
         else {
