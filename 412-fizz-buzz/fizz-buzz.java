@@ -12,8 +12,8 @@ class Solution {
                 result.add("Buzz");
             }
             else{
-                String a=String.valueOf(i);
-                result.add(a);
+               
+                result.add(String.valueOf(i));
             }
         }
         return result;
