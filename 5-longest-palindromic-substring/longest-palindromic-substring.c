@@ -9,7 +9,7 @@ char* longestPalindrome(char* s) {
     int n=strlen(s);
     int start=0,end=0;
     int len;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){ 
         int len1=expandfromcenter(s,i,i,n);
         int len2=expandfromcenter(s,i,i+1,n);
          len=(len1>len2)?len1:len2;
