@@ -16,7 +16,6 @@ public:
     void func(int index,string s){
         if(index==s.size()){
             ans.push_back(temp);
-            return;
         }
         for(int j=index;j<s.size();j++){
             string str=s.substr(index,j-index+1);
