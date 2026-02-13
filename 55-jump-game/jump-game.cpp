@@ -6,7 +6,7 @@ public:
         //if(nums.size()==1) return true;
         for(int i=0;i<nums.size()-1;i++){
             m=max(m,nums[i]+i);
-            if(nums[i]==0&&m<=i){
+            if(m<=i){
                 return false;
             }
 
