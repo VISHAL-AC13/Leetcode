@@ -1,6 +1,6 @@
 class Solution {
 public:
-bool func(string s,string p,int i,int j){
+bool func(string& s,string& p,int i,int j){
     if(j<0) return true;
     if(i<0&&j>=0){
         while(j>=0&&p[j]=='*') j--;
